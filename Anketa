@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Anketa</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<link rel="SHORTCUT ICON" href="./favicon.ico"/>
+
+<body>
+	<div class = "logo">
+		<center><img src = "http://jurmala.beachvolley.lv/img/logo-jurmala.png" />
+		</center>
+	</div>
+	<div class = "menu">
+		<ul class = "izvelne2">
+			<li><a href = "index">Sākums</a></li>
+			<li><a href = "galerija">Galerija</a></li>
+			<li><a href = "Kontakti">Kontakti</a></li>
+			<li><a href = "anketa">Anketa</a></li>
+		</ul>
+	</div>
+	<div class = "mainContent">
+		<form action="">
+	<p>Norādiet savu dzimumu:</p>
+	<input type="radio" name="Dzimums" value="Zēns" ckecked>Zēns
+	<br>
+	<input type="radio" name="Dzimums" value="Meitene">Meitene 
+	<p>Vai jums patīk šī izveidotā majaslapa?</p>	
+	<input type="radio" name="Majaslapa" value="Jā" ckecked>Jā
+	<br>
+	<input type="radio" name="Majaslapa" value="Nē">Nē
+	<p>Jums labāk patīk suns vai kaķis?</p>	
+	<input type="radio" name="Majdzivnieks" value="Suns" ckecked>Suns
+	<br>
+	<input type="radio" name="Majdzivnieks" value="Kaķis">Kaķis 	
+		</form>
+	</div>
+	<div class = "footer"></div>
+	
+
+</body>
+
+</html>

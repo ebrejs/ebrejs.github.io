@@ -1,0 +1,19 @@
+body{
+    background-image:-webkit-linear-gradient(bottom, #000000 0%, #232729 21%,#e8e8e8 100%);
+
+}
+
+.footer {
+    background-color: #000000;
+    color:#fff;
+    text-align: right;
+    font-size:11px;
+    width:528;
+    margin:auto;
+    
+}
+
+.container{
+    padding-bottom: 97px;
+    overflow: hidden;
+}

@@ -1,0 +1,41 @@
+﻿body{
+    background-image:-webkit-linear-gradient(bottom, #000000 0%, #232729 21%,#e8e8e8 100%);
+}
+.gallery{
+    width:528;
+    margin:auto;
+}
+
+.gallery ul {
+    list-style: none;
+}
+
+.gallery li {
+    float:left;
+    background: black;
+    margin:10px;
+}
+
+#content {
+    padding-top:50px;
+    padding-bottom: 476px;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: #000000;
+    width:100px;
+
+}
+
+footer p {
+    color:#fff;
+    text-align: right;
+    font-size:11px;
+}
+
+.gallery img{
+    display:block;
+    padding:5px;
+    border:2px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kontakti</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<link rel="SHORTCUT ICON" href="./favicon.ico"/>
+
+<body>
+	<div class = "logo">
+		<center><img src = "http://jurmala.beachvolley.lv/img/logo-jurmala.png" />
+		</center>
+	</div>
+	<div class = "menu">
+		<ul class = "izvelne2">
+			<li><a href = "index">Sākums</a></li>
+			<li><a href = "galerija">Galerija</a></li>
+			<li><a href = "Kontakti">Kontakti</a></li>
+			<li><a href = "anketa">Anketa</a></li>
+		</ul>
+	</div>
+	<div class = "mainContent">
+	<p> Info par autoru:</p>
+	<p> Vārds : Dāvis </p>
+	<p> Uzvārds : Ašmanis </p>
+	<p> Skola: RVT </p>
+	<p> Epasts : davis.asmanis@gmail.com </p>
+	<p> Numurs : 29846228 </p>
+	</div>
+	<div class = "footer"></div>
+	
+
+</body>
+
+</html>

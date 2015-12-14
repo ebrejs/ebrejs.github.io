@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sākums</title>
+  <link rel="stylesheet" type="text/css" href="kake.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <div class = "logo">
+    <center><img src = "http://jurmala.beachvolley.lv/img/logo-jurmala.png" />
+    </center>
+      </div>
+<link rel="SHORTCUT ICON" href="./favicon.ico"/>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index">Sākums</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li ><a href="./galerija">Galerija<span class="sr-only">(current)</span></a></li>
+        <li ><a href="./anketa">Anketa<span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Izvēlne <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Reģistrēties</a></li>
+            <li><a href="./kontakti">Kontakti</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</head>
+<body>
+  <div class="container">
+  <div class="jumbotron">
+  <h1>Šī ir mana mājaslapa</h1>
+	<p>Mājas lapas ideja ir apkopot un informēt cilvēkus ar Jūrmalas ziņām : )</p>
+	<h2>Lorem ipsum dolor sit amet, eum adipisci rationibus id, cum erroribus voluptaria cu. Ex pro aliquip atomorum corrumpit. Sit eu detraxit honestatis, quo duis nullam cu. Duo in saepe quando, nam et atqui deseruisse. </h2>
+	<p> Eos cu sonet homero discere. Abhorreant argumentum at eos, sit deleniti urbanitas ea. Id mollis postulant partiendo pri, elaboraret honestatis ad nec, ceteros euripidis qui an. Usu rebum temporibus et, ius in errem atomorum dissentiet, sonet dolore consul te sea. Nam veritus adipiscing id, dicta ignota est no. Movet offendit principes ei has, id aeterno maiestatis quo.
+
+Ut cum alii tritani, dolores nominavi vim ne. Ut vim graecis abhorreant. Quis detraxit ad eam. Cetero animal persius nec ea, solum scripserit in cum. An sed laoreet omittam. Id usu novum malorum lobortis, eu eum illum aeterno. Tation noluisse in vel.
+
+Doming dolorem maiorum te vix, dicat tollit eam ut. Iudicabit molestiae interesset cu sed. Te nibh discere sed, an consul graeci antiopam qui. Clita apeirian quo te, ancillae reprimique an nam. Mei homero quodsi at. Tota putent utamur ei sea. Cum iusto sonet in, tempor tacimates nominati ius ad.</p>
+</div>
+</div>
+<footer><div class = "footer">Copyright &copy; 2015 Dāvis Ašmanis.</div></footer>
+</body>
+</html>
