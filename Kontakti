@@ -1,36 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="SHORTCUT ICON" href="./favicon.ico"/>
 <title>Kontakti</title>
-<link rel="stylesheet" type="text/css" href="css.css">
+  <link rel="stylesheet" type="text/css" href="kontakti.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <div class = "logo">
+    <center><img src = "http://jurmala.beachvolley.lv/img/logo-jurmala.png" />
+    </center>
+      </div>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Nav bar sākums-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index">Sākums</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li ><a href="./galerija">Galerija<span class="sr-only">(current)</span></a></li>
+        <li ><a href="./anketa">Anketa<span class="sr-only">(current)</span></a></li>
+        <li><a href="#" data-toggle="modal" data-target="#basicModal">Ielogoties</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Izvēlne <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="./myacc">Mans profils</a></li>
+            <li><a href="./kontakti">Kontakti</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </ul>
+      </div >
+    </div>
+  </div>
+</nav>
 </head>
 <link rel="SHORTCUT ICON" href="./favicon.ico"/>
 
 <body>
-	<div class = "logo">
-		<center><img src = "http://jurmala.beachvolley.lv/img/logo-jurmala.png" />
-		</center>
-	</div>
-	<div class = "menu">
-		<ul class = "izvelne2">
-			<li><a href = "index">Sākums</a></li>
-			<li><a href = "galerija">Galerija</a></li>
-			<li><a href = "Kontakti">Kontakti</a></li>
-			<li><a href = "anketa">Anketa</a></li>
-		</ul>
-	</div>
-	<div class = "mainContent">
+ <div class = "mainContent">
+ 	<div class = "container">
+		<div class="jumbotron">
 	<p> Info par autoru:</p>
 	<p> Vārds : Dāvis </p>
 	<p> Uzvārds : Ašmanis </p>
 	<p> Skola: RVT </p>
 	<p> Epasts : davis.asmanis@gmail.com </p>
 	<p> Numurs : 29846228 </p>
+	<img src="./bildes/prof1.jpg" alt="kruc"style="width:304px;height:228px;">
+		</div>
 	</div>
-	<div class = "footer"></div>
-	
+</div>
+<footer><div class = "footer">Copyright &copy; 2015 Dāvis Ašmanis.</div></footer>
 
+
+	
+<div class="modal fade bs-modal-lg" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <br>
+        <div class="bs-example bs-example-tabs">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="active"><a href="#signin" data-toggle="tab">Ielogoties</a></li>
+              <li class=""><a href="#signup" data-toggle="tab">Reģistrēties</a></li>
+            </ul>
+        </div>
+      <div class="modal-body">
+        <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade active in" id="signin">
+            <form class="form-horizontal">
+            <fieldset>
+            <!-- Ielogošanās forma -->
+            <!-- Teksta ievade-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Lietotāja vārds:</label>
+              <div class="controls">
+                <input required="" id="userid" name="userid" type="text" class="form-control" placeholder="Janis" class="input-medium" required="">
+              </div>
+            </div>
+
+            <!-- Paroles ievade-->
+            <div class="control-group">
+              <label class="control-label" for="passwordinput">Parole:</label>
+              <div class="controls">
+                <input required="" id="passwordinput" name="passwordinput" class="form-control" type="password" placeholder="********" class="input-medium">
+              </div>
+            </div>
+            <!-- Poga -->
+            <div class="control-group">
+              <label class="control-label" for="signin"></label>
+              <div class="controls">
+                <button id="signin" name="signin" class="btn btn-success">Ielogoties</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+        </div>
+        <div class="tab-pane fade" id="signup">
+            <form class="form-horizontal">
+            <fieldset>
+            <!-- Ielogošanās forma -->
+            <!-- Teksta forma-->
+            <div class="control-group">
+              <label class="control-label" for="Email">Epasts:</label>
+              <div class="controls">
+                <input id="Email" name="Email" class="form-control" type="text" placeholder="janis23@inbox.lv" class="input-large" required="">
+              </div>
+            </div>
+            
+            <!-- Teksta ievads-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Lietotāja vārds:</label>
+              <div class="controls">
+                <input id="userid" name="userid" class="form-control" type="text" placeholder="Janis" class="input-large" required="">
+              </div>
+            </div>
+            
+            <!-- Paroles ievadzz-->
+            <div class="control-group">
+              <label class="control-label" for="password">Parole:</label>
+              <div class="controls">
+                <input id="password" name="password" class="form-control" type="password" placeholder="********" class="input-large" required="">
+                <em>1-8 Rakstzīmes</em>
+              </div>
+            </div>
+            
+            <!-- Teksta ievads-->
+            <div class="control-group">
+              <label class="control-label" for="reenterpassword">Ievadiet vēlreiz paroli:</label>
+              <div class="controls">
+                <input id="reenterpassword" class="form-control" name="reenterpassword" type="password" placeholder="********" class="input-large" required="">
+              </div>
+            </div>
+            <br>
+            <!-- Poga -->
+            <div class="control-group">
+              <label class="control-label" for="confirmsignup"></label>
+              <div class="controls">
+                <button id="confirmsignup" name="confirmsignup" class="btn btn-success">Reģistrēties</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+      </div>
+    </div>
+      </div>
+      <div class="modal-footer">
+      <center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Aizvērt</button>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>

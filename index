@@ -15,9 +15,9 @@
     </center>
       </div>
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Nav bar sākums-->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -27,7 +27,6 @@
       </button>
       <a class="navbar-brand" href="index">Sākums</a>
     </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li ><a href="./galerija">Galerija<span class="sr-only">(current)</span></a></li>
@@ -36,7 +35,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Izvēlne <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Mans profils</a></li>
+            <li><a href="./myacc">Mans profils</a></li>
             <li><a href="./kontakti">Kontakti</a></li>
           </ul>
         </li>
@@ -48,8 +47,8 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </ul>
       </div >
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>
 </head>
 <body>
@@ -81,8 +80,8 @@ Abi mākslinieki par vakara moto izvēlējušies Aspazijas citātu: "...dabas m�
         <div class="tab-pane fade active in" id="signin">
             <form class="form-horizontal">
             <fieldset>
-            <!-- Sign In Form -->
-            <!-- Text input-->
+            <!-- Ielogošanās forma -->
+            <!-- Teksta ievade-->
             <div class="control-group">
               <label class="control-label" for="userid">Lietotāja vārds:</label>
               <div class="controls">
@@ -90,14 +89,14 @@ Abi mākslinieki par vakara moto izvēlējušies Aspazijas citātu: "...dabas m�
               </div>
             </div>
 
-            <!-- Password input-->
+            <!-- Paroles ievade-->
             <div class="control-group">
               <label class="control-label" for="passwordinput">Parole:</label>
               <div class="controls">
                 <input required="" id="passwordinput" name="passwordinput" class="form-control" type="password" placeholder="********" class="input-medium">
               </div>
             </div>
-            <!-- Button -->
+            <!-- Poga -->
             <div class="control-group">
               <label class="control-label" for="signin"></label>
               <div class="controls">
@@ -110,8 +109,8 @@ Abi mākslinieki par vakara moto izvēlējušies Aspazijas citātu: "...dabas m�
         <div class="tab-pane fade" id="signup">
             <form class="form-horizontal">
             <fieldset>
-            <!-- Sign Up Form -->
-            <!-- Text input-->
+            <!-- Ielogošanās forma -->
+            <!-- Teksta forma-->
             <div class="control-group">
               <label class="control-label" for="Email">Epasts:</label>
               <div class="controls">
@@ -119,7 +118,7 @@ Abi mākslinieki par vakara moto izvēlējušies Aspazijas citātu: "...dabas m�
               </div>
             </div>
             
-            <!-- Text input-->
+            <!-- Teksta ievads-->
             <div class="control-group">
               <label class="control-label" for="userid">Lietotāja vārds:</label>
               <div class="controls">
@@ -127,7 +126,7 @@ Abi mākslinieki par vakara moto izvēlējušies Aspazijas citātu: "...dabas m�
               </div>
             </div>
             
-            <!-- Password input-->
+            <!-- Paroles ievadzz-->
             <div class="control-group">
               <label class="control-label" for="password">Parole:</label>
               <div class="controls">
@@ -136,17 +135,15 @@ Abi mākslinieki par vakara moto izvēlējušies Aspazijas citātu: "...dabas m�
               </div>
             </div>
             
-            <!-- Text input-->
+            <!-- Teksta ievads-->
             <div class="control-group">
               <label class="control-label" for="reenterpassword">Ievadiet vēlreiz paroli:</label>
               <div class="controls">
                 <input id="reenterpassword" class="form-control" name="reenterpassword" type="password" placeholder="********" class="input-large" required="">
               </div>
             </div>
-            
-            <!-- Multiple Radios (inline) -->
             <br>
-            <!-- Button -->
+            <!-- Poga -->
             <div class="control-group">
               <label class="control-label" for="confirmsignup"></label>
               <div class="controls">
