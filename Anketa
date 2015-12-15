@@ -1,44 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Anketa</title>
-<link rel="stylesheet" type="text/css" href="css.css">
-</head>
+  <link rel="stylesheet" type="text/css" href="anketa.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <div class = "logo">
+    <center><img src = "http://jurmala.beachvolley.lv/img/logo-jurmala.png" />
+    </center>
+      </div>
 <link rel="SHORTCUT ICON" href="./favicon.ico"/>
-
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index">Sākums</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li ><a href="./galerija">Galerija<span class="sr-only">(current)</span></a></li>
+        <li ><a href="./anketa">Anketa<span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Izvēlne <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Reģistrēties</a></li>
+            <li><a href="./kontakti">Kontakti</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</head>
 <body>
-	<div class = "logo">
-		<center><img src = "http://jurmala.beachvolley.lv/img/logo-jurmala.png" />
-		</center>
-	</div>
-	<div class = "menu">
-		<ul class = "izvelne2">
-			<li><a href = "index">Sākums</a></li>
-			<li><a href = "galerija">Galerija</a></li>
-			<li><a href = "Kontakti">Kontakti</a></li>
-			<li><a href = "anketa">Anketa</a></li>
-		</ul>
-	</div>
-	<div class = "mainContent">
+  <div class = "container">
+		<div class="jumbotron">
 		<form action="">
-	<p>Norādiet savu dzimumu:</p>
-	<input type="radio" name="Dzimums" value="Zēns" ckecked>Zēns
+	<p>Noradiet savu dzimumu:</p>
+	<input type="radio" name="Dzimums" value="Zens" ckecked>Zens
 	<br>
 	<input type="radio" name="Dzimums" value="Meitene">Meitene 
-	<p>Vai jums patīk šī izveidotā majaslapa?</p>	
-	<input type="radio" name="Majaslapa" value="Jā" ckecked>Jā
+	<p>Vai jums patik ši izveidota majaslapa?</p>	
+	<input type="radio" name="Majaslapa" value="Ja" ckecked>Ja
 	<br>
-	<input type="radio" name="Majaslapa" value="Nē">Nē
-	<p>Jums labāk patīk suns vai kaķis?</p>	
+	<input type="radio" name="Majaslapa" value="Ne">Ne
+	<p>Jums labak patik suns vai kakis?</p>	
 	<input type="radio" name="Majdzivnieks" value="Suns" ckecked>Suns
 	<br>
-	<input type="radio" name="Majdzivnieks" value="Kaķis">Kaķis 	
+	<input type="radio" name="Majdzivnieks" value="Kakis">Kakis 	
 		</form>
+		</div>
 	</div>
-	<div class = "footer"></div>
-	
-
+<footer><div class = "footer">Copyright &copy; 2015 Dāvis Ašmanis.</div></footer>
 </body>
-
 </html>
