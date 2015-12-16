@@ -62,6 +62,10 @@ Regīna Razuma pastāstīja, ka veidojot programmu, pamazām aizrāvusies ar Asp
 Abi mākslinieki par vakara moto izvēlējušies Aspazijas citātu: "...dabas mūzikai ir sava dziļa mistika, tā atraisa dvēseli no miesas esamības un tagadnes un ievelk lielajā dabas korī un aiznes neaptveramā tālē, kas vilina un reizē atbaida."</p>
 <img src="./bildes/topic1.jpg" alt="Aspazijas māja"style="width:304px;height:228px;">
 <figcaption>Aspazijas māja</figcaption>
+<ul class="pager">
+  <li><a href="#">Uz atpakaļu</a></li>
+  <li><a href="#">Uz priekšu</a></li>
+</ul>
 </div>
 </div>
 <footer><div class = "footer">Copyright &copy; 2015 Dāvis Ašmanis.</div></footer>
